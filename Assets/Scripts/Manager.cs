@@ -1,33 +1,13 @@
-/******************************************************************************
- * The MIT License (MIT)
- * 
- * Copyright (c) 2016 Bunny83
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to
- * deal in the Software without restriction, including without limitation the
- * rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
- * sell copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- * 
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *****************************************************************************/
-
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
     public Vector3 CamPoint;
+
+    public Collider Player;
 
     public List<GameObject> VisitedSector = new List<GameObject>();
 
@@ -42,18 +22,20 @@ public class Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < AllSector.Count; ++i)
+        IEnumerable<GameObject> except = AllSector.Except(Camera.main.GetComponent<Cam>().CurrentSector.GetComponent<Sector>().CheckSectors);
+
+        foreach (var sector in except)
         {
-            AllSector[i].GetComponent<Collider>().enabled = false;
+            Physics.IgnoreCollision(Player, sector.GetComponent<Collider>(), true);
         }
 
         for (int i = 0; i < Camera.main.GetComponent<Cam>().CurrentSector.GetComponent<Sector>().CheckSectors.Count; ++i)
         {
             GameObject Check = Camera.main.GetComponent<Cam>().CurrentSector.GetComponent<Sector>().CheckSectors[i];
 
-            Check.GetComponent<Sector>().CheckSector();
+            Physics.IgnoreCollision(Player, Check.GetComponent<Collider>(), false);
 
-            Check.GetComponent<Collider>().enabled = true;
+            Check.GetComponent<Sector>().CheckSector();
         }
 
         VisitedSector.Clear();
@@ -84,7 +66,7 @@ public class Manager : MonoBehaviour
                 Graphics.DrawMesh(p.GetComponent<MeshFilter>().mesh, matrix2, p.GetComponent<Renderer>().sharedMaterial, 0, Camera.main, 0, null, false, false);
             }
 
-            if (d < -0.2f)
+            if (d < -0.1f)
             {
                 continue;
             }
