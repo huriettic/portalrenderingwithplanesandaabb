@@ -140,7 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1209092972}
 --- !u!1 &43802969 stripped
@@ -160,7 +159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1209092972}
 --- !u!1 &56990228 stripped
@@ -180,7 +178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 143744849}
 --- !u!1 &57161808 stripped
@@ -200,7 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1769114590}
 --- !u!1 &80017335 stripped
@@ -234,7 +230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 80017335}
   - {fileID: 684812091}
@@ -275,7 +270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 102204762}
   - {fileID: 80017335}
@@ -300,7 +294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 899816870}
 --- !u!1 &143744849 stripped
@@ -334,7 +327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 143744849}
   - {fileID: 1768302904}
@@ -377,7 +369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 213965292}
   - {fileID: 143744849}
@@ -402,7 +393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 899816870}
 --- !u!1 &228645868 stripped
@@ -422,7 +412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 357544464}
 --- !u!1 &275526964 stripped
@@ -442,7 +431,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 213965292}
 --- !u!1 &313999746 stripped
@@ -462,7 +450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1995695011}
 --- !u!1 &323905547 stripped
@@ -482,7 +469,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 719564105}
 --- !u!1 &357544464 stripped
@@ -516,7 +502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 357544464}
   - {fileID: 143744849}
@@ -541,7 +526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1617247844}
 --- !u!1 &386270627
@@ -588,7 +572,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386270627}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11, y: 6, z: -30}
+  m_LocalPosition: {x: -11.25, y: 6, z: -29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -650,7 +634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 465486559}
   - {fileID: 80017335}
@@ -677,7 +660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 719564105}
 --- !u!1 &524938443 stripped
@@ -697,7 +679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1241924234}
 --- !u!1 &526422807 stripped
@@ -717,7 +698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 465486559}
 --- !u!1 &533333740 stripped
@@ -737,7 +717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1241924234}
 --- !u!1 &552253995 stripped
@@ -757,7 +736,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 839029586}
 --- !u!1001 &577451664
@@ -1218,7 +1196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 2046344433}
 --- !u!1 &620261153 stripped
@@ -1238,7 +1215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 357544464}
 --- !u!1 &636345504 stripped
@@ -1258,7 +1234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 2107250114}
 --- !u!1 &661371970 stripped
@@ -1278,7 +1253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1241924234}
 --- !u!1 &663725250 stripped
@@ -1298,7 +1272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 684812091}
 --- !u!1 &673178622 stripped
@@ -1318,7 +1291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 143744849}
 --- !u!1 &674344924 stripped
@@ -1338,7 +1310,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1617247844}
 --- !u!1 &684812091 stripped
@@ -1372,7 +1343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 684812091}
   - {fileID: 80017335}
@@ -1399,7 +1369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 1800697330}
 --- !u!1 &700822698 stripped
@@ -1419,7 +1388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1536172741}
 --- !u!1 &705507993
@@ -1547,7 +1515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 719564105}
   - {fileID: 1617247844}
@@ -1574,7 +1541,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 143744849}
 --- !u!1 &819118193 stripped
@@ -1594,7 +1560,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 839029586}
 --- !u!1 &839029586 stripped
@@ -1628,7 +1593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 839029586}
   - {fileID: 1345947496}
@@ -1657,7 +1621,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 102204762}
 --- !u!1 &848769487 stripped
@@ -1677,7 +1640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 2088965235}
 --- !u!1 &861062908 stripped
@@ -1697,7 +1659,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 143744849}
 --- !u!1 &869758910 stripped
@@ -1717,7 +1678,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 465486559}
 --- !u!1 &899816870 stripped
@@ -1751,7 +1711,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 899816870}
   - {fileID: 1209092972}
@@ -1778,7 +1737,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 80017335}
 --- !u!1 &963194225
@@ -1792,7 +1750,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1866,19 +1823,6 @@ Transform:
   m_Father: {fileID: 386270629}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb7186bf02daab248bf8358717d977f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentSector: {fileID: 80017335}
 --- !u!1 &968778437 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2400312054168527000, guid: ee309495167f23b4f864412de201f308, type: 3}
@@ -1896,7 +1840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1769114590}
 --- !u!1 &997616717
@@ -1928,8 +1871,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8af7bafa613e704fbe6f32ffea1bf22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
+  Cam: {fileID: 963194227}
   Player: {fileID: 386270628}
+  CurrentSector: {fileID: 80017335}
   VisitedSector: []
   AllSector:
   - {fileID: 80017335}
@@ -1965,7 +1909,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997616717}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.349852, y: 4.754828, z: -31.405365}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1989,7 +1933,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1241924234}
 --- !u!1 &1035526875 stripped
@@ -2009,7 +1952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1209092972}
 --- !u!1 &1122041714 stripped
@@ -2029,7 +1971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 684812091}
 --- !u!1 &1150618317 stripped
@@ -2049,7 +1990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1579035758}
 --- !u!1 &1158628430 stripped
@@ -2069,7 +2009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1769114590}
 --- !u!1 &1158864513 stripped
@@ -2089,7 +2028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 102204762}
 --- !u!1 &1167388012 stripped
@@ -2109,7 +2047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 1995695011}
 --- !u!1 &1168064526 stripped
@@ -2129,7 +2066,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1617247844}
 --- !u!1 &1169950575 stripped
@@ -2163,7 +2099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1169950575}
   - {fileID: 1800697330}
@@ -2188,7 +2123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1536172741}
 --- !u!1 &1189676868 stripped
@@ -2208,7 +2142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 1768302904}
 --- !u!1 &1204539522 stripped
@@ -2228,7 +2161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1769114590}
 --- !u!1 &1208242191 stripped
@@ -2248,7 +2180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 2144403401}
 --- !u!1 &1209092972 stripped
@@ -2282,7 +2213,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1209092972}
   - {fileID: 839029586}
@@ -2325,7 +2255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1241924234}
   - {fileID: 839029586}
@@ -2354,7 +2283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1536172741}
 --- !u!1 &1324782652 stripped
@@ -2374,7 +2302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 684812091}
 --- !u!1 &1345947496 stripped
@@ -2408,7 +2335,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1345947496}
   - {fileID: 143744849}
@@ -2433,7 +2359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 80017335}
 --- !u!1 &1397806216 stripped
@@ -2453,7 +2378,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1209092972}
 --- !u!1 &1421093420 stripped
@@ -2473,7 +2397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 899816870}
 --- !u!1 &1431053609 stripped
@@ -2493,7 +2416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 719564105}
 --- !u!1 &1452912791 stripped
@@ -2513,7 +2435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 80017335}
 --- !u!1 &1526192565 stripped
@@ -2533,7 +2454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1345947496}
 --- !u!1 &1536172741 stripped
@@ -2567,7 +2487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1536172741}
   - {fileID: 1169950575}
@@ -2608,7 +2527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1579035758}
   - {fileID: 102204762}
@@ -2647,7 +2565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1617247844}
   - {fileID: 1769114590}
@@ -2674,7 +2591,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 465486559}
 --- !u!1 &1731969468 stripped
@@ -2694,7 +2610,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 2107250114}
 --- !u!1 &1738801082 stripped
@@ -2714,7 +2629,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1345947496}
 --- !u!1 &1768302904 stripped
@@ -2748,7 +2662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1768302904}
   - {fileID: 2107250114}
@@ -2787,7 +2700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1769114590}
   - {fileID: 839029586}
@@ -2816,7 +2728,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 2144403401}
 --- !u!1 &1800697330 stripped
@@ -2850,7 +2761,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1800697330}
   - {fileID: 684812091}
@@ -2877,7 +2787,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1768302904}
 --- !u!1 &1871982802 stripped
@@ -2897,7 +2806,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 2144403401}
 --- !u!1 &1882700708 stripped
@@ -2917,7 +2825,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 2088965235}
 --- !u!1 &1914006380 stripped
@@ -2937,7 +2844,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 1169950575}
 --- !u!1 &1929588350 stripped
@@ -2957,7 +2863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 839029586}
 --- !u!1 &1938019172 stripped
@@ -2977,7 +2882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1800697330}
 --- !u!1 &1938232938 stripped
@@ -2997,7 +2901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 1579035758}
 --- !u!1 &1988560446 stripped
@@ -3017,7 +2920,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 213965292}
 --- !u!1 &1995695011 stripped
@@ -3051,7 +2953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 1995695011}
   - {fileID: 684812091}
@@ -3076,7 +2977,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 1169950575}
 --- !u!1 &2014434393 stripped
@@ -3096,7 +2996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 1
   TargetSector: {fileID: 1800697330}
 --- !u!1 &2027976605 stripped
@@ -3116,7 +3015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8549881ec598b894ca3ef58a16b71c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   RenderPortal: 0
   TargetSector: {fileID: 839029586}
 --- !u!1 &2046344433 stripped
@@ -3150,7 +3048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 2046344433}
   - {fileID: 719564105}
@@ -3187,7 +3084,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 2088965235}
   - {fileID: 465486559}
@@ -3226,7 +3122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 2107250114}
   - {fileID: 1579035758}
@@ -3265,7 +3160,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e321543b41f678a4aae31416cf34c4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamPoint: {x: 0, y: 0, z: 0}
   CheckSectors:
   - {fileID: 2144403401}
   - {fileID: 1241924234}
