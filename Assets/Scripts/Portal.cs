@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
-    public Vector3 CamPoint;
-
     public bool RenderPortal;
 
     public Plane[] planes;
@@ -49,12 +47,11 @@ public class Portal : MonoBehaviour
 
         Vector3[] corners = portalMesh.vertices;
 
-        CamPoint = Camera.main.transform.position;
+        Vector3 CamPoint = Camera.main.transform.position;
 
         planes[0].Set3Points(CamPoint, transform.TransformPoint(corners[3]), transform.TransformPoint(corners[2]));
         planes[1].Set3Points(CamPoint, transform.TransformPoint(corners[2]), transform.TransformPoint(corners[1]));
         planes[2].Set3Points(CamPoint, transform.TransformPoint(corners[1]), transform.TransformPoint(corners[0]));
         planes[3].Set3Points(CamPoint, transform.TransformPoint(corners[0]), transform.TransformPoint(corners[3]));
-
     }
 }

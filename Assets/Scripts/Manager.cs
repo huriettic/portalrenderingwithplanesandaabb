@@ -5,9 +5,13 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    public Vector3 CamPoint;
+    public Camera Cam;
+
+    public Plane[] planes;
 
     public Collider Player;
+
+    public GameObject CurrentSector;
 
     public List<GameObject> VisitedSector = new List<GameObject>();
 
@@ -22,30 +26,56 @@ public class Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        IEnumerable<GameObject> except = AllSector.Except(Camera.main.GetComponent<Cam>().CurrentSector.GetComponent<Sector>().CheckSectors);
+        CheckSector();
+
+        planes = GeometryUtility.CalculateFrustumPlanes(Cam);
+
+        VisitedSector.Clear();
+
+        GetSector(planes, CurrentSector);
+    }
+
+    public void CheckSector()
+    {
+        Vector3 CamPoint = Cam.transform.position;
+
+        for (int i = 0; i < CurrentSector.GetComponent<Sector>().CheckSectors.Count; i++)
+        {
+            bool PointIn = true;
+
+            for (int e = 0; e < CurrentSector.GetComponent<Sector>().CheckSectors[i].GetComponent<Sector>().Planes.Count; e++)
+            {
+                if (CurrentSector.GetComponent<Sector>().CheckSectors[i].GetComponent<Sector>().Planes[e].GetDistanceToPoint(CamPoint) < 0)
+                {
+                    PointIn = false;
+                    break;
+                }
+            }
+
+            if (PointIn == true)
+            {
+                CurrentSector = CurrentSector.GetComponent<Sector>().CheckSectors[i];
+            }
+        }
+
+        IEnumerable<GameObject> except = AllSector.Except(CurrentSector.GetComponent<Sector>().CheckSectors);
 
         foreach (var sector in except)
         {
             Physics.IgnoreCollision(Player, sector.GetComponent<Collider>(), true);
         }
 
-        for (int i = 0; i < Camera.main.GetComponent<Cam>().CurrentSector.GetComponent<Sector>().CheckSectors.Count; ++i)
+        for (int i = 0; i < CurrentSector.GetComponent<Sector>().CheckSectors.Count; ++i)
         {
-            GameObject Check = Camera.main.GetComponent<Cam>().CurrentSector.GetComponent<Sector>().CheckSectors[i];
+            GameObject Check = CurrentSector.GetComponent<Sector>().CheckSectors[i];
 
             Physics.IgnoreCollision(Player, Check.GetComponent<Collider>(), false);
-
-            Check.GetComponent<Sector>().CheckSector();
         }
-
-        VisitedSector.Clear();
-
-        GetSector(Camera.main.GetComponent<Cam>().planes, Camera.main.GetComponent<Cam>().CurrentSector);
     }
 
     public void GetSector(Plane[] APlanes, GameObject BSector)
     {
-        CamPoint = Camera.main.transform.position;
+        Vector3 CamPoint = Cam.transform.position;
 
         Matrix4x4 matrix = Matrix4x4.TRS(BSector.transform.position, BSector.transform.rotation, BSector.transform.lossyScale);
 
@@ -71,14 +101,14 @@ public class Manager : MonoBehaviour
                 continue;
             }
 
-            if (VisitedSector.Contains(p.GetComponent<Portal>().TargetSector) && d < 0f)
+            if (VisitedSector.Contains(p.GetComponent<Portal>().TargetSector) && d < 0.1f)
             {
                 continue;
             }
 
             if (d < 1f)
             {
-                GetSector(Camera.main.GetComponent<Cam>().planes, p.GetComponent<Portal>().TargetSector);
+                GetSector(planes, p.GetComponent<Portal>().TargetSector);
                 continue;
             }
 

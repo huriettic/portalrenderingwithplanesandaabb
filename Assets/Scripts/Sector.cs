@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Sector : MonoBehaviour
 {
-    public Vector3 CamPoint;
-
     public List<Plane> Planes = new List<Plane>();
 
     public List<GameObject> CheckSectors = new List<GameObject>();
@@ -36,25 +34,4 @@ public class Sector : MonoBehaviour
     //{
         
     //}
-    public void CheckSector()
-    {
-        CamPoint = Camera.main.transform.position;
-
-        bool PointIn = true;
-
-        foreach (Plane plane in Planes)
-        {
-
-            if (plane.GetDistanceToPoint(CamPoint) < 0)
-            {
-                PointIn = false;
-                break;
-            }
-        }
-
-        if (PointIn == true)
-        {
-            Camera.main.GetComponent<Cam>().CurrentSector = gameObject;
-        }
-    }
 }
