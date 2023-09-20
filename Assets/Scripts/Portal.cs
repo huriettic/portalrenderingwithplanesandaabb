@@ -12,46 +12,43 @@ public class Portal : MonoBehaviour
 
     public GameObject TargetSector;
 
+    public List<Vector3> corners = new List<Vector3>();
+
+    public List<Vector3> cornertp = new List<Vector3>();
+
+    public List<int> triangles = new List<int>();
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        SetMesh();
+
         planes = new Plane[4];
 
+        portalPlane = new Plane(cornertp[0], cornertp[1], cornertp[2]);
+    }
+
+    public void SetMesh()
+    {
         Mesh portalMesh = GetComponent<MeshFilter>().sharedMesh;
 
-        int[] triangles = portalMesh.triangles;
+        portalMesh.GetTriangles(triangles, 0);
 
-        Vector3[] vertices = portalMesh.vertices;
+        portalMesh.GetVertices(corners);
 
-        portalPlane = new Plane(transform.TransformPoint(vertices[0]), transform.TransformPoint(vertices[1]), transform.TransformPoint(vertices[2]));
-
-        for (int i = 0; i < triangles.Length; i += 3)
+        for (int i = 0; i < corners.Count; i++)
         {
-            Vector3 p1 = transform.TransformPoint(vertices[triangles[i + 0]]);
-            Vector3 p2 = transform.TransformPoint(vertices[triangles[i + 1]]);
-            Vector3 p3 = transform.TransformPoint(vertices[triangles[i + 2]]);
-
-            transform.parent.gameObject.GetComponent<Sector>().Planes.Add(new Plane(p1, p2, p3));
+            cornertp.Add(transform.TransformPoint(corners[i]));
         }
     }
 
-    // Update is called once per frame
-    //void Update()
-    //{
-
-    //}
-
-    public void SetPlanes()
+    public void SetPortal()
     {
-        Mesh portalMesh = GetComponent<MeshFilter>().sharedMesh;
-
-        Vector3[] corners = portalMesh.vertices;
-
         Vector3 CamPoint = Camera.main.transform.position;
 
-        planes[0].Set3Points(CamPoint, transform.TransformPoint(corners[3]), transform.TransformPoint(corners[2]));
-        planes[1].Set3Points(CamPoint, transform.TransformPoint(corners[2]), transform.TransformPoint(corners[1]));
-        planes[2].Set3Points(CamPoint, transform.TransformPoint(corners[1]), transform.TransformPoint(corners[0]));
-        planes[3].Set3Points(CamPoint, transform.TransformPoint(corners[0]), transform.TransformPoint(corners[3]));
+        planes[0].Set3Points(CamPoint, cornertp[3], cornertp[2]);
+        planes[1].Set3Points(CamPoint, cornertp[2], cornertp[1]);
+        planes[2].Set3Points(CamPoint, cornertp[1], cornertp[0]);
+        planes[3].Set3Points(CamPoint, cornertp[0], cornertp[3]);
     }
 }

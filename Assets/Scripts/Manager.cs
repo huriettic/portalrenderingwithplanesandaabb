@@ -18,10 +18,10 @@ public class Manager : MonoBehaviour
     public List<GameObject> AllSector = new List<GameObject>();
 
     // Start is called before the first frame update
-    //void Start()
-    //{
-
-    //}
+    void Start()
+    {
+        SetPlanes();
+    }
 
     // Update is called once per frame
     void Update()
@@ -33,6 +33,32 @@ public class Manager : MonoBehaviour
         VisitedSector.Clear();
 
         GetSector(planes, CurrentSector);
+    }
+
+    public void SetPlanes()
+    {
+        for (int i = 0; i < AllSector.Count; i++)
+        {
+            for (int e = 0; e < AllSector[i].GetComponent<Sector>().triangles.Count; e += 3)
+            {
+                Vector3 p1 = AllSector[i].GetComponent<Sector>().verticestp[AllSector[i].GetComponent<Sector>().triangles[e + 0]];
+                Vector3 p2 = AllSector[i].GetComponent<Sector>().verticestp[AllSector[i].GetComponent<Sector>().triangles[e + 1]];
+                Vector3 p3 = AllSector[i].GetComponent<Sector>().verticestp[AllSector[i].GetComponent<Sector>().triangles[e + 2]];
+
+                AllSector[i].GetComponent<Sector>().Planes.Add(new Plane(p1, p2, p3));
+            }
+            for (int e = 0; e < AllSector[i].GetComponent<Sector>().OutPortals.Count; e++)
+            {
+                for (int r = 0; r < AllSector[i].GetComponent<Sector>().OutPortals[e].GetComponent<Portal>().triangles.Count; r += 3)
+                {
+                    Vector3 p1 = AllSector[i].GetComponent<Sector>().OutPortals[e].GetComponent<Portal>().cornertp[AllSector[i].GetComponent<Sector>().OutPortals[e].GetComponent<Portal>().triangles[r + 0]];
+                    Vector3 p2 = AllSector[i].GetComponent<Sector>().OutPortals[e].GetComponent<Portal>().cornertp[AllSector[i].GetComponent<Sector>().OutPortals[e].GetComponent<Portal>().triangles[r + 1]];
+                    Vector3 p3 = AllSector[i].GetComponent<Sector>().OutPortals[e].GetComponent<Portal>().cornertp[AllSector[i].GetComponent<Sector>().OutPortals[e].GetComponent<Portal>().triangles[r + 2]];
+
+                    AllSector[i].GetComponent<Sector>().Planes.Add(new Plane(p1, p2, p3));
+                }
+            }
+        }
     }
 
     public void CheckSector()
@@ -60,7 +86,7 @@ public class Manager : MonoBehaviour
 
         IEnumerable<GameObject> except = AllSector.Except(CurrentSector.GetComponent<Sector>().CheckSectors);
 
-        foreach (var sector in except)
+        foreach (GameObject sector in except)
         {
             Physics.IgnoreCollision(Player, sector.GetComponent<Collider>(), true);
         }
@@ -114,7 +140,7 @@ public class Manager : MonoBehaviour
 
             if (GeometryUtility.TestPlanesAABB(APlanes, p.GetComponent<Renderer>().bounds))
             {
-                p.GetComponent<Portal>().SetPlanes();
+                p.GetComponent<Portal>().SetPortal();
 
                 GetSector(p.GetComponent<Portal>().planes, p.GetComponent<Portal>().TargetSector);
             }
